@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+    }
+
+    h1 {
+      padding: 2%;
+    }
+
+    .banner-container {
+      width: 100%;
+      position: absolute;
+      height: 20%;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .blue-banner {
+      width: 200%;
+      position: absolute;
+      height: 100%;
+      background: rgb(59, 168, 236);
+      z-index: -1;
+      transform: translate(-10%, -30%) rotate(-1.5deg);
+    }
+  </style>
+
+</head>
+<body>
+  <div class="banner-container"><div class="blue-banner"></div></div>
+  <h1>Hey! This is a test website</h1>
+</body>
+</html>
